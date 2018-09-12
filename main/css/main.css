@@ -1,0 +1,271 @@
+
+body{
+	background: #dddedf;
+	width: 100%
+	height:100%;
+	padding-top: 50px;
+	padding-bottom: 46px;
+	box-sizing: border-box;
+}
+header{
+	width: 100%;
+	height: 40px;
+	background: #41AFC5;
+	position: fixed;
+	top: 0;
+	min-width: 700px;
+	overflow: hidden;
+	box-shadow: 0 1px 6px rgba(0,0,0,0.3)
+}
+header img{
+	height: 22px;
+	margin-top: 0px;
+	width: auto;
+	float: left;
+	padding: 8px 16px 8px 8px;
+}
+header nav{
+	padding-left: 8px;
+}
+header nav li{
+	display: block;
+	float: left;
+	padding: 0 6px;
+	font-size: 14px;
+}
+header nav li:hover{
+	background: #1383B2;
+}
+header nav li.here{
+	background: #1694b6;
+}
+header nav li a{
+	padding: 0 2px;
+	color: white;
+	font-weight: 350;
+	display: inline-block;
+	line-height: 40px;
+}
+header nav li a:hover{
+	font-weight: 380;
+}
+.userInf {
+    height: 50px;
+    position: absolute;
+	right: 3%;
+	line-height: 40px;
+	display: block;
+	z-index: 1;
+	background:#41AFC5; 
+}
+.userInf a {
+	color: rgba(255,255,255,0.8);
+	padding-left: 8px;
+	display: inline-block;
+}
+.userInf a:hover{
+	color: rgba(255,255,255,0.9)
+}
+.userInf a img{
+	position: inherit;
+	width: 12px;
+	float: right;
+	padding-right: 6px;
+	padding-top: 10px;
+	display: block;
+	opacity: 0.8;
+}
+.user
+header nav ul li.here{
+	 background: #1694B6;
+}
+header nav ul li.here a{
+	font-weight: 400;
+}
+.content{
+	margin: 0 auto;
+	height: 100%;
+	width: 94%;
+	background: rgb(255,255,255);
+	border-radius: 0.3em;
+	box-shadow: 0 1px 6px rgba(0,0,0,0.1)
+}
+
+.bottom{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	background: rgba(255,255,255,0.8);
+	margin-top: 10px;
+
+}
+.bottom p{
+	font-size: 0.2em;
+	padding-top: 3px;
+	line-height: 32px;
+	text-align: center;
+	color: #999999;
+}
+
+/*以上为整体布局的样式*/
+
+/*以下内容区域的样式*/
+.navbar{
+	width: 100%;
+	height: 43px;
+	background: #eeeeee;
+	overflow: hidden;
+}
+.navbar ul{
+	padding-left: 20px;
+
+}
+.navbar ul li{
+	float:left;
+	box-sizing: border-box;
+	padding: 12px;
+	margin-top: 6px;
+	margin-left: 10px;
+	border-radius: 4px;
+}
+.navbar ul li:hover {
+	color:#60bacd;
+	cursor: pointer;
+}
+.navbar ul li.here{
+	border-top: solid 6px #60bacd;
+	padding-top: 8px;
+	background: white;
+	color: #60bacd;
+	font-weight:460;
+}
+.contentC{
+	width: 100%;
+	padding: 0 20px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.tableOpreation{
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	height: 52px;
+	padding-top: 10px;
+	line-height: 36px;	
+	overflow: hidden;
+}
+.tableOpreation ul{
+	display: inline-block;
+	float: left;
+}
+.tableOpreation ul li{
+	box-sizing: border-box;
+	display:inline-block;
+	margin-right: 10px;
+	padding: 12px;
+    color: #5CB2C4;
+    cursor: pointer;
+}
+.tableOpreation ul .here{
+	background: #5CB2C4;
+	padding: 8px 14px;
+	color: white;
+	border-radius: 4em;
+}
+.tableOpreation div,.tableOpreation img,.tableOpreation input{
+	float: left;
+	height: 100%;
+	padding-left: 12px;
+	padding-top: 2px;
+	display: inline-block;
+}
+
+.tableOpreation div p{
+	line-height: 30px;
+	width: 200px;
+	padding-left: 20px;
+	height: 36px;
+}
+
+.input{
+	height: 32px;
+}
+.contentC img{
+	height: 28px;
+	width: 20px;
+	padding-left: 4px;
+	z-index: 2;
+	position: absolute;
+	float: left;
+	box-sizing: border-box;
+}
+.tableOpreation input{
+	height: 22px;
+	padding-left: 28px;
+}
+.tableOpreation .input:hover{
+	border:1px solid #0394b0;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+.tableOpreation .checkbox{
+	padding-right: 20px;
+	height: 30px;
+}
+table{
+	width: 100%;
+	border-collapse: collapse;
+	overflow: hidden;
+}
+table thead {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0 0px;
+	height: 30px;
+}
+table thead tr{
+	height: 40px;
+}
+table thead tr th{
+	min-width: 10px;
+	padding:0 10px;	
+	border: solid 1px #dddddd;
+	background: #eeeeee;
+	color: #333333;
+
+}
+.alignL{
+	text-align: left;
+	padding-left: 6px;
+}
+.alignC{
+	text-align: center;
+}
+.alignR{
+	text-align: right;
+}
+/*以上是表头样式*/
+	
+/*以下是表格样式*/
+
+tbody tr td{
+	border: solid 1px #dddddd;
+    height: 32px;
+    padding: 0 10px;
+    padding-top: 1.8px;【
+    color: #666666;
+}
+tbody tr td span{
+	color: white;
+	padding:6px 16px;
+	border-radius: 4em;
+	display: inline-block;
+}
+tbody tr td a{
+	margin: 0 6px;
+	color: #1AB1F1;
+	text-decoration: underline;
+	font-weight: 380;
+}
+span.wait{
+	background: #24c86a;
+}

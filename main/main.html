@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>main.html</title>
+	<link rel="stylesheet" type="text/css" href="../css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+    <header>
+    	<img src="img/tkLogo2.png">
+    	<nav>
+    		<ul>
+    			<li ><a href="main.html" >首页</a></li>
+    			<li><a href="scheduling.html">治疗时间表</a></li>
+    			<li><a href="assignment.html">医嘱分派</a></li>
+    			<li><a href="treatment.html">治疗管理</a></li>
+    			<li><a href="treatmentTimeList.html">排班管理</a></li>
+    			<li><a href="reportForm.html">报表管理</a></li>
+    			<li><a href="template.html">模版管理</a></li>
+    			<li><a href="system.html">系统管理</a></li>
+    		</ul>
+    	</nav>
+        <div class="userInf">
+               <a href="">燕园康复医院<img src="img/droDownW-mark03-K.svg"></a>
+               <a href="">康复科-住院<img src="img/droDownW-mark03-K.svg"> </a>
+               <a href="">陈思思</a>
+               <a href="">退出</a>
+        </div>
+    </header>
+    <div class="content">
+    	<div class="navbar">
+    		<ul>
+    			<li class="here">待执行任务</li>
+    			<li >已执行任务</li>
+    		</ul>
+    	</div>
+    	<div class="contentC">
+    		<div class="tableOpreation">
+                <ul>
+                    <li class="here"><p>2017-5-21</p></li>
+                    <li><p>全部</p></li>
+                </ul>
+                <div><img src="img/search-icon0.svg"><input type="text" class="input" placeholder="输入患者姓名检索">
+                </div>
+                <div><img src="img/search-icon0.svg"><input type="text" class="input" placeholder="输入任务内容检索">
+                </div>
+                <div><input type="checkbox" name="" class="checkbox"><p>查看已取消任务</p></div>
+            </div>
+
+        <table>
+          <thead>
+            <tr><th style="width:8px;"><input type="checkbox"></th>
+                <th class="alignC" style="width:80px;">状态</th>
+                <th class="alignL">就诊类型</th>
+                <th class="alignL">ID</th>
+                <th class="alignL">患者</th>
+                <th class="alignC" style="width:60px;">性别</th>
+                <th class="alignC" style="width:60px;">年龄</th>
+                <th class="alignL" style="width:100px;">计划开始时间</th>
+                <th class="alignL" style="width:100px;">计划结束时间</th>
+                <th class="alignL">任务内容</th>
+                <th class="alignR" style="width:60px;">单次数量</th>
+                <th class="alignL" style="width:100px;">实际开始时间</th>
+                <th class="alignC"style="width:60px min-width:40px;">操作</th>
+            </tr>  
+          </thead>
+          <tbody>
+              <tr><td><input type="checkbox"></td>
+                <td class="alignC"><span class="wait">待执行</span></td>
+                <td class="alignL">门诊</td>
+                <td class="alignL">0001</td>
+                <td class="alignL">王珊珊</td>
+                <td class="alignL">女</td>
+                <td class="alignL">20</td>
+                <td class="alignL">05-20 18:80</td>
+                <td class="alignL">日常计划训练</td>
+                <td class="alignL">10分钟</td>
+                <td class="alignL">-</td>
+                <td class="alignL">-</td>
+                <td class="alignC"><a href="#">执行</a><a href="#">取消</a></td>
+            </tr>
+          </tbody>
+        </table>
+        </div>
+    	</div>
+    	
+    </div>
+
+    <div class="bottom">
+      <P >©2013-2017  泰康保险集团版权所有  版本号：V 1.0.0</P>
+      	
+      </div>
+</body>
+<script type="text/javascript" src="js/global.js"></script>
+</html>
