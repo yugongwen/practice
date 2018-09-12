@@ -234,7 +234,6 @@ table thead tr th{
 	background: #eeeeee;
 	color: #3e3e3e;
 	height: 30px;
-	max-height: 30px;
     min-width: 34px;
 }
 table thead tr th:first-child{
