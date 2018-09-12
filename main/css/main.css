@@ -6,6 +6,7 @@ body{
 	padding-top: 50px;
 	padding-bottom: 46px;
 	box-sizing: border-box;
+	min-width: 1000px; 
 }
 header{
 	width: 100%;
@@ -221,6 +222,7 @@ table thead {
 	box-sizing: border-box;
 	padding: 0 0px;
 	height: 30px;
+
 }
 table thead tr{
 	height: 40px;
@@ -231,7 +233,12 @@ table thead tr th{
 	border: solid 1px #dddddd;
 	background: #eeeeee;
 	color: #333333;
-
+	height: 30px;
+	max-height: 30px;
+    min-width: 40px;
+}
+table thead tr th:first-child{
+	min-width: 10px;
 }
 .alignL{
 	text-align: left;
@@ -261,10 +268,12 @@ tbody tr td span{
 	display: inline-block;
 }
 tbody tr td a{
-	margin: 0 6px;
+	display: inline-block;
+	margin: 0 0px;
 	color: #1AB1F1;
 	text-decoration: underline;
 	font-weight: 380;
+	width: 40px;	
 }
 span.wait{
 	background: #24c86a;
