@@ -232,10 +232,10 @@ table thead tr th{
 	padding:0 10px;	
 	border: solid 1px #dddddd;
 	background: #eeeeee;
-	color: #333333;
+	color: #3e3e3e;
 	height: 30px;
 	max-height: 30px;
-    min-width: 40px;
+    min-width: 34px;
 }
 table thead tr th:first-child{
 	min-width: 10px;
@@ -258,23 +258,34 @@ tbody tr td{
 	border: solid 1px #dddddd;
     height: 32px;
     padding: 0 10px;
-    padding-top: 1.8px;【
+    padding-top: 1.8px;
     color: #666666;
 }
 tbody tr td span{
 	color: white;
-	padding:6px 16px;
+	padding: 4px 14px;
 	border-radius: 4em;
 	display: inline-block;
+	width: 40px;
+	font-weight: 340;
 }
 tbody tr td a{
 	display: inline-block;
-	margin: 0 0px;
+	margin: 2 0px;
 	color: #1AB1F1;
 	text-decoration: underline;
 	font-weight: 380;
-	width: 40px;	
+	width: 36px;	
+}
+tbody tr td a:hover{
+	color: #1e84b0;
+}
+tbody tr td:last-child{
+	padding: 0 4px;	
 }
 span.wait{
 	background: #24c86a;
+}
+span.ing{
+	background: #fda13e;
 }
