@@ -45,6 +45,16 @@
                 <div><img src="img/search-icon0.svg"><input type="text" class="input" placeholder="输入任务内容检索">
                 </div>
                 <div><input type="checkbox" name="" class="checkbox"><p>查看已取消任务</p></div>
+                <div class="tableOpreationRight">
+                    <ul>
+                        <li><span class="wait"></span><p>待执行</p></li>
+                        <li><span class="ing"></span><p>执行中</p></li>
+                        <li><span class="cancel"></span><p>取消</p></li>
+                    </ul>
+                    <input type="button" value="新建" class="btnB">
+                    <input type="button" value="批量操作" class="btnB">
+                    
+                </div>
             </div>
 
         <table>
@@ -58,52 +68,80 @@
                 <th class="alignC">年龄</th>
                 <th class="alignL" style="width:100px;">计划开始时间</th>
                 <th class="alignL" style="width:100px;">计划结束时间</th>
-                <th class="alignL" >任务内容</th>
+                <th class="alignL">任务内容</th>
                 <th class="alignR" style="width:60px;">单次数量</th>
                 <th class="alignL" style="width:100px;">实际开始时间</th>
-                <th class="alignC"style="width:60px min-width:40px;">操作</th>
+                <th class="alignC">操作</th>
             </tr>  
           </thead>
           <tbody>
               <tr><td><input type="checkbox" checked="checked"></td>
-                <td class="alignC"><span class="wait" >待执行</span></td>
+                <td class="alignC"><span class="wait">待执行</span></td>
                 <td class="alignL">门诊</td>
                 <td class="alignL">0001</td>
                 <td class="alignL">王珊珊</td>
                 <td class="alignL">女</td>
                 <td class="alignL">20</td>
                 <td class="alignL">05-20 18:80</td>
+                <td class="alignL">05-20 18:80</td>
                 <td class="alignL">日常计划训练</td>
-                <td class="alignL">10分钟</td>
-                <td class="alignL">-</td>
+                <td class="alignR">10分钟</td>
                 <td class="alignL">-</td>
                 <td class="alignC"><a href="#">执行</a><a href="#">取消</a></td>
             </tr>
             <tr><td><input type="checkbox"></td>
                 <td class="alignC"><span class="ing">执行中</span></td>
-                <td class="alignL">门诊</td>
-                <td class="alignL">0001</td>
-                <td class="alignL">王珊珊</td>
-                <td class="alignL">女</td>
-                <td class="alignL">20</td>
+                <td class="alignL">住院</td>
+                <td class="alignL">0002</td>
+                <td class="alignL">康有为</td>
+                <td class="alignL">男</td>
+                <td class="alignL">78</td>
                 <td class="alignL">05-20 18:80</td>
-                <td class="alignL">日常计划训练</td>
-                <td class="alignL">10分钟</td>
-                <td class="alignL">-</td>
-                <td class="alignL">-</td>
+                <td class="alignL">05-20 18:80</td>
+                <td class="alignL">颈椎牵引(电动式)</td>
+                <td class="alignR">10分钟</td>
+                <td class="alignL">05-20 18:80</td>
                 <td class="alignC"><a href="#">执行</a><a href="#">取消</a></td>
             </tr>
             <tr><td><input type="checkbox" ></td>
                 <td class="alignC"><span class="ing">执行中</span></td>
                 <td class="alignL">门诊</td>
-                <td class="alignL">0001</td>
+                <td class="alignL">0003</td>
+                <td class="alignL">刘康</td>
+                <td class="alignL">男</td>
+                <td class="alignL">70</td>
+                <td class="alignL">05-20 18:80</td>
+                <td class="alignL">05-20 18:80</td>
+                <td class="alignL">日常生活训练</td>
+                <td class="alignR">10分钟</td>
+                <td class="alignL">05-20 18:80</td>
+                <td class="alignC"><a href="#">执行</a><a href="#">取消</a></td>
+            </tr>
+            <tr><td><input type="checkbox"></td>
+                <td class="alignC"><span class="wait">待执行</span></td>
+                <td class="alignL">门诊</td>
+                <td class="alignL">0004</td>
+                <td class="alignL">刘康</td>
+                <td class="alignL">男</td>
+                <td class="alignL">20</td>
+                <td class="alignL">05-20 18:80</td>
+                <td class="alignL">05-20 18:80</td>
+                <td class="alignL">日常计划训练</td>
+                <td class="alignR">10分钟</td>
+                <td class="alignL">-</td>
+                <td class="alignC"><a href="#">执行</a><a href="#">取消</a></td>
+            </tr>
+            <tr><td><input type="checkbox"></td>
+                <td class="alignC"><span class="wait">待执行</span></td>
+                <td class="alignL">门诊</td>
+                <td class="alignL">0005</td>
                 <td class="alignL">王珊珊</td>
                 <td class="alignL">女</td>
                 <td class="alignL">20</td>
                 <td class="alignL">05-20 18:80</td>
+                <td class="alignL">05-20 18:80</td>
                 <td class="alignL">日常计划训练</td>
-                <td class="alignL">10分钟</td>
-                <td class="alignL">-</td>
+                <td class="alignR">10分钟</td>
                 <td class="alignL">-</td>
                 <td class="alignC"><a href="#">执行</a><a href="#">取消</a></td>
             </tr>
@@ -120,4 +158,6 @@
       </div>
 </body>
 <script type="text/javascript" src="js/global.js"></script>
+<script type="text/javascript" src="../js/commonjs/jquery.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
 </html>

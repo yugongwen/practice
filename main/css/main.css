@@ -130,7 +130,7 @@ header nav ul li.here a{
 	border-radius: 4px;
 }
 .navbar ul li:hover {
-	color:#60bacd;
+	color:#1694b6;
 	cursor: pointer;
 }
 .navbar ul li.here{
@@ -183,11 +183,65 @@ header nav ul li.here a{
 
 .tableOpreation div p{
 	line-height: 30px;
-	width: 200px;
 	padding-left: 20px;
 	height: 36px;
 }
-
+body .contentC .tableOpreation .tableOpreationRight{
+	display: inline-block;
+	height:52px;
+    position: relative;
+    float: right;	
+}
+.contentC .tableOpreationRight ul{
+	padding-right: 10px;
+}
+.contentC .tableOpreationRight ul li{
+	padding: 8px 0;
+}
+.contentC .tableOpreationRight ul li p{
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	color: #333333;
+	line-height: 16px;
+	height: 16px;
+	margin-top: -8px;
+	line-height: 13px;
+}
+.tableOpreationRight ul li span{
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	border-radius: 4em;
+	margin-right: 12px; 
+	float: left;
+}
+span.wait{
+	background: #24c86a;
+}
+span.ing{
+	background: #fda13e;
+}
+span.cancel{
+	background: #e2e2e2;
+}
+/*//右侧按钮样式*/
+.tableOpreation .tableOpreationRight input.btnB{
+	width: 78px;
+	height: 30px;
+	background: #41b0c6;
+	color: rgba(255,255,255, 0.8);
+	border:0;
+	padding: 0;
+	margin-left: 16px;
+	border-radius: 0.4em;
+	font-weight: 380;
+	cursor: pointer;
+}
+.tableOpreation .tableOpreationRight input.btnB:hover{
+    background: #0b8aac;
+    color: white;
+}
 .input{
 	height: 32px;
 }
@@ -236,6 +290,10 @@ table thead tr th{
 	height: 30px;
     min-width: 34px;
 }
+.content table thead tr th:nth-child(2){
+	width: 50px;
+	padding: 0;
+}
 table thead tr th:first-child{
 	min-width: 10px;
 }
@@ -258,7 +316,7 @@ tbody tr td{
     height: 32px;
     padding: 0 10px;
     padding-top: 1.8px;
-    color: #666666;
+    color: #444444;
 }
 tbody tr td span{
 	color: white;
@@ -268,19 +326,23 @@ tbody tr td span{
 	width: 40px;
 	font-weight: 340;
 }
+tbody tr th.opreation{
+	padding: 0 2px;
+}
 tbody tr td a{
 	display: inline-block;
 	margin: 2 0px;
 	color: #1AB1F1;
 	text-decoration: underline;
 	font-weight: 380;
-	width: 36px;	
+	width: 32px;	
 }
 tbody tr td a:hover{
 	color: #1e84b0;
 }
 tbody tr td:last-child{
-	padding: 0 4px;	
+	width: 90px;
+	padding: 0 0;	
 }
 span.wait{
 	background: #24c86a;
