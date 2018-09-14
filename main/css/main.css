@@ -193,7 +193,7 @@ body .contentC .tableOpreation .tableOpreationRight{
     float: right;	
 }
 .contentC .tableOpreationRight ul{
-	padding-right: 10px;
+	padding-right: 4px;
 }
 .contentC .tableOpreationRight ul li{
 	padding: 8px 0;
@@ -205,15 +205,15 @@ body .contentC .tableOpreation .tableOpreationRight{
 	color: #333333;
 	line-height: 16px;
 	height: 16px;
-	margin-top: -8px;
-	line-height: 13px;
+	line-height: 14px;
 }
 .tableOpreationRight ul li span{
 	display: inline-block;
 	width: 14px;
 	height: 14px;
 	border-radius: 4em;
-	margin-right: 12px; 
+	margin-right: 10px; 
+	margin-top: 0.2px;
 	float: left;
 }
 span.wait{
