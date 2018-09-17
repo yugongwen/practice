@@ -14,3 +14,15 @@ $(document).ready(function(){
 		$(this).siblings().removeClass("here");
 	})
 })
+
+//全选按钮选中就全选，没选中就不全选
+
+$(function(){
+	$("input[name=all]").click(function(){
+		if (this.checked){
+			$('tbody :checkbox').prop("checked",true);
+		}else{
+			$("tbody :checkbox").prop("checked",false);
+		}
+	});
+});
