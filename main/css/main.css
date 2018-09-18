@@ -140,7 +140,7 @@ header nav ul li.here a{
 	color: #60bacd;
 	font-weight:460;
 }
-.contentC{
+.secondContent{
 	width: 100%;
 	padding: 0 20px;
 	box-sizing: border-box;
@@ -176,7 +176,7 @@ header nav ul li.here a{
 .tableOpreation div,.tableOpreation img,.tableOpreation input{
 	float: left;
 	height: 100%;
-	padding-left: 12px;
+	padding-left: 14px;
 	padding-top: 2px;
 	display: inline-block;
 }
@@ -186,19 +186,20 @@ header nav ul li.here a{
 	padding-left: 20px;
 	height: 36px;
 }
-body .contentC .tableOpreation .tableOpreationRight{
+body .secondContent .tableOpreation .tableOpreationRight{
 	display: inline-block;
 	height:52px;
     position: relative;
     float: right;	
 }
-.contentC .tableOpreationRight ul{
+.secondContent .tableOpreationRight ul{
 	padding-right: 4px;
 }
-.contentC .tableOpreationRight ul li{
+.secondContent .tableOpreationRight ul li{
 	padding: 8px 0;
+	cursor: default;
 }
-.contentC .tableOpreationRight ul li p{
+.secondContent .tableOpreationRight ul li p{
 	display: inline-block;	padding: 0;
 	margin: 0;
 	color: #333333;
@@ -238,13 +239,13 @@ span.cancel{
 	cursor: pointer;
 }
 .tableOpreation .tableOpreationRight input.btnB:hover{
-    background: #0b8aac;
+    background: #149e4f;
     color: white;
 }
 .input{
 	height: 32px;
 }
-.contentC img{
+.secondContent img{
 	height: 28px;
 	width: 20px;
 	padding-left: 4px;

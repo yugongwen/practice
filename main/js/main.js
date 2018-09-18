@@ -1,21 +1,12 @@
-//今日和全部的导航切换
+
 $(document).ready(function(){
-	$('.tableOpreation ul li').click(function(){
+	$('li.nav').click(function(){
 		$(this).addClass("here");
 		$(this).siblings().removeClass("here");
 	})
 })
 
-//待执行任务导航切换
-
-$(document).ready(function(){
-	$('.navbar ul li').click(function(){
-		$(this).addClass("here");
-		$(this).siblings().removeClass("here");
-	})
-})
-
-//全选按钮选中就全选，没选中就不全选
+//含有nav的li 元素切换添加here类名
 
 $(function(){
 	$("input[name=all]").click(function(){
@@ -27,4 +18,7 @@ $(function(){
 	});
 });
 
-// 点击待执行和已执行按钮之间进行切换
+// 点击待执行和已执行按钮之间进行切换。
+$(document).ready(function(){
+	$('.')
+})
