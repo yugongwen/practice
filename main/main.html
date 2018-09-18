@@ -30,8 +30,8 @@
     <div class="content contentA">
     	<div class="navbar">
     		<ul class="nav" >
-    			<li class="here nav">待执行任务</li>
-    			<li class="nav">已执行任务</li>
+    			<li class="here nav ready">待执行任务</li>
+    			<li class="nav done">已执行任务</li>
     		</ul>
     	</div>
       <!--   以下是待执行任务内容区域 -->
@@ -63,13 +63,13 @@
             <tr><th style="width:8px;"><input type="checkbox" name="all"></th>
                 <th class="alignC" style="width:80px;">状态</th>
                 <th class="alignL" style="min-width:60px;width: 60px;">就诊类型</th>
-                <th class="alignL">ID</th>
+                <th class="alignL" style="width:100px">ID</th>
                 <th class="alignL" style="width:80px";>患者</th>
                 <th class="alignC" style="width:40px";>性别</th>
                 <th class="alignC" style="width:40px";>年龄</th>
                 <th class="alignL" style="width:120px";>计划开始时间</th>
                 <th class="alignL" style="width:120px";>计划结束时间</th>
-                <th class="alignL" style="width:100px">任务内容</th>
+                <th class="alignL">任务内容</th>
                 <th class="alignR" style="width:60px;">单次数量</th>
                 <th class="alignL" style="width:100px;">实际开始时间</th>
                 <th class="alignC">操作</th>
@@ -153,7 +153,7 @@
         <!-- 以上是待执行任务的内容区域。 -->
 
          <!-- 以下是已执行任务的内容区域。 -->
-                <div class="contentD secondContent">
+        <div class="contentD secondContent" style="display: none;">
             <div class="tableOpreation">
                 <ul>
                     <li class="here nav"><p>2017-5-21</p></li>
@@ -165,11 +165,6 @@
                 </div>
                 <div><input type="checkbox" name="" class="checkbox"><p>查看已取消任务</p></div>
                 <div class="tableOpreationRight">
-                    <ul>
-                        <li><span class="wait"></span><p>待执行</p></li>
-                        <li><span class="ing"></span><p>执行中</p></li>
-                        <li><span class="cancel"></span><p>取消</p></li>
-                    </ul>
                     <input type="button" value="新建" class="btnB">
                     <input type="button" value="批量操作" class="btnB">
                     
@@ -181,13 +176,13 @@
             <tr><th style="width:8px;"><input type="checkbox" name="all"></th>
                 <th class="alignC" style="width:80px;">状态</th>
                 <th class="alignL" style="min-width:60px;width: 60px;">就诊类型</th>
-                <th class="alignL">ID</th>
+                <th class="alignL" style="width:100px">ID</th>
                 <th class="alignL" style="width:80px";>患者</th>
                 <th class="alignC" style="width:40px";>性别</th>
                 <th class="alignC" style="width:40px";>年龄</th>
                 <th class="alignL" style="width:120px";>计划开始时间</th>
                 <th class="alignL" style="width:120px";>计划结束时间</th>
-                <th class="alignL" style="width:100px">任务内容</th>
+                <th class="alignL" >任务内容</th>
                 <th class="alignR" style="width:60px;">单次数量</th>
                 <th class="alignL" style="width:100px;">实际开始时间</th>
                 <th class="alignC">操作</th>
@@ -242,20 +237,6 @@
                 <td class="alignL">0004</td>
                 <td class="alignL">刘康</td>
                 <td class="alignL">男</td>
-                <td class="alignL">20</td>
-                <td class="alignL">05-20 18:80</td>
-                <td class="alignL">05-20 18:80</td>
-                <td class="alignL">日常计划训练</td>
-                <td class="alignR">10分钟</td>
-                <td class="alignL">-</td>
-                <td class="alignC"><a href="#">执行</a><a href="#">取消</a></td>
-            </tr>
-            <tr><td><input type="checkbox"></td>
-                <td class="alignC"><span class="wait">待执行</span></td>
-                <td class="alignL">门诊</td>
-                <td class="alignL">0005</td>
-                <td class="alignL">王珊珊</td>
-                <td class="alignL">女</td>
                 <td class="alignL">20</td>
                 <td class="alignL">05-20 18:80</td>
                 <td class="alignL">05-20 18:80</td>
