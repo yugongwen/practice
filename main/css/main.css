@@ -185,6 +185,8 @@ header nav ul li.here a{
 	line-height: 30px;
 	padding-left: 20px;
 	height: 36px;
+	display: inline-block;
+	position: relative;
 }
 body .secondContent .tableOpreation .tableOpreationRight{
 	display: inline-block;
@@ -216,6 +218,7 @@ body .secondContent .tableOpreation .tableOpreationRight{
 	margin-top: 0.2px;
 	float: left;
 }
+
 span.wait{
 	background: #24c86a;
 }
@@ -262,6 +265,11 @@ span.cancel{
 	border:1px solid #0394b0;
     box-shadow: 0 1px 3px rgba(0,0,0,0.2);
 }
+.tableOpreation div span{
+	float: right;
+	line-height: 30px;
+	padding-left: 10px;
+}
 .tableOpreation .checkbox{
 	padding-right: 20px;
 	height: 30px;
@@ -306,6 +314,16 @@ table thead tr th:first-child{
 }
 .alignR{
 	text-align: right;
+}
+.tableOpreation div input.time{
+	float: right;
+	display: inline-block;
+	padding-left: 20px;
+	padding-left: 8px;	
+	margin-left: 10px;
+}
+.tableOpreation div span.circle{
+	padding-left: 0;
 }
 /*以上是表头样式*/
 	
