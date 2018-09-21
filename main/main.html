@@ -64,11 +64,11 @@
                 <th class="alignC" style="width:80px;">状态</th>
                 <th class="alignL" style="min-width:60px;width: 60px;">就诊类型</th>
                 <th class="alignL" style="max-width:80px">ID</th>
-                <th class="alignL" style="width:80px";>患者</th>
-                <th class="alignC" style="width:40px";>性别</th>
-                <th class="alignC" style="width:40px";>年龄</th>
-                <th class="alignL" style="width:120px";>计划开始时间</th>
-                <th class="alignL" style="width:120px";>计划结束时间</th>
+                <th class="alignL" style="width:60px";>患者</th>
+                <th class="alignC" style="width:30px";>性别</th>
+                <th class="alignC" style="width:30px";>年龄</th>
+                <th class="alignL" style="width:80px";>计划开始时间</th>
+                <th class="alignL" style="width:80px";>计划结束时间</th>
                 <th class="alignL">任务内容</th>
                 <th class="alignR" style="width:60px;">单次数量</th>
                 <th class="alignL" style="width:100px;">实际开始时间</th>
@@ -153,7 +153,7 @@
         <!-- 以上是待执行任务的内容区域。 -->
 
          <!-- 以下是已执行任务的内容区域。 -->
-        <div class="contentD secondContent" style="display: display;">
+        <div class="contentD secondContent" style="display: none;">
             <div class="tableOpreation">
                 <ul>
                     <li class="here nav"><p>2017-5-21</p></li>
@@ -175,15 +175,16 @@
                 <th class="alignC" style="width:80px;">状态</th>
                 <th class="alignL" style="min-width:60px;width: 60px;">就诊类型</th>
                 <th class="alignL" style="max-width:80px">ID</th>
-                <th class="alignL" style="width:80px";>患者</th>
-                <th class="alignC" style="width:40px";>性别</th>
-                <th class="alignC" style="width:40px";>年龄</th>
-                <th class="alignL" style="width:120px";>计划开始时间</th>
-                <th class="alignL" style="width:120px";>计划结束时间</th>
+                <th class="alignL" style="width:60px";>患者</th>
+                <th class="alignC" style="width:30px";>性别</th>
+                <th class="alignC" style="width:30px";>年龄</th>
+                <th class="alignL" style="width:80px";>计划开始时间</th>
+                <th class="alignL" style="width:80px";>计划结束时间</th>
                 <th class="alignL" >任务内容</th>
                 <th class="alignR" style="width:60px;">单次数量</th>
-                <th class="alignL" style="width:100px;">实际开始时间</th>
-                <th class="alignC">操作</th>
+                <th class="alignL" style="width:80px;">实际开始时间</th>
+                   <th class="alignL" style="width:80px;">实际结束时间</th>
+                <th class="alignC"  style="width:100px;">操作</th>
             </tr>  
           </thead>
           <tbody>
@@ -199,7 +200,8 @@
                 <td class="alignL">日常计划训练</td>
                 <td class="alignR">10分钟</td>
                 <td class="alignL">-</td>
-                <td class="alignC"><a href="#">执行</a><a href="#">取消</a></td>
+                <td class="alignL">-</td>
+                <td class="alignC"><a href="#">修改</a><a href="#">查看结果</a></td>
             </tr>
             <tr><td><input type="checkbox"></td>
                 <td class="alignC"><span class="ing">执行中</span></td>
@@ -213,7 +215,8 @@
                 <td class="alignL">颈椎牵引(电动式)</td>
                 <td class="alignR">10分钟</td>
                 <td class="alignL">05-20 18:80</td>
-                <td class="alignC"><a href="#">执行</a><a href="#">取消</a></td>
+                <td class="alignL">05-20 18:80</td>
+                <td class="alignC"><a href="#">修改</a><a href="#">查看结果</a></td>
             </tr>
           </tbody>
         </table>
@@ -227,6 +230,45 @@
       <P >©2013-2017  泰康保险集团版权所有  版本号：V 1.0.0</P>
       	
       </div>
+
+    <!--   接下来是弹窗 -->
+    <div class="popUp">
+        <div class="popUpContent">
+            <h4>日常生活动作训练</h4>
+            <aside>
+                <span></span>
+                <h6>医嘱信息</h6>
+                <table>
+                    <tr><td>患者姓名：</td><td>王康</td></tr>
+                    <tr><td>性别：</td><td>男</td></tr>
+                    <tr><td>年龄：</td><td>67岁</td></tr>
+                    <tr><td>就诊类型：</td><td>门诊</td></tr>
+                    <tr><td>诊断：</td><td>颈椎综合症</td></tr>
+                </table>
+                <span></span>
+                <h6>医嘱信息</h6>
+                <table>
+                    <tr><td>开立时间：</td><td>2017-05-23 10:20</td></tr>
+                    <tr><td>医生姓名：</td><td>张丽莉</td></tr>
+                    <tr><td>医嘱内容：</td><td>日常生活训练</td></tr>
+                    <tr><td>数量：</td><td>2</td></tr>
+                    <tr><td>频次：</td><td>1次/日</td></tr>
+                </table>
+                  <span></span>
+                <h6>计划/预约</h6>
+                <table>
+                    <tr><td>计划开始时间：</td><td>2017-05-23 10:20</td></tr>
+                    <tr><td>计划结束时间：</td><td>张丽莉</td></tr>
+                    <tr><td>预约设备：</td><td>日常生活训练</td></tr>
+                    <tr><td>治疗师：</td><td>王娜娜</td></tr>
+                </table>
+            </aside>
+            <article>
+                
+            </article>
+         </div>
+    
+    </div>
 </body>
 <script type="text/javascript" src="js/global.js"></script>
 <script type="text/javascript" src="../js/commonjs/jquery.js"></script>
