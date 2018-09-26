@@ -382,18 +382,23 @@ span.ing{
 	height: 100%;
 	z-index: 9999;
 	background-color:rgba(0,0,0,0.2);
-	padding: 20px 80px;	
+	padding: 40px 80px;	
 }
 
 .popUpContent{
+	box-sizing: border-box;
+	position: relative;
 	display: block;
 	width: 100%;
 	height: 100%;
 	background: white;
 	border-radius: 0.2em;
+	padding-bottom: 32px;
+	overflow: hidden;
 }
 .popUpContent h4{
-	line-height: 30px;
+	position: relative;
+	line-height: 32px;
 	background: #eeeeee;
 	padding-left: 20px;
 	border-top-left-radius: 0.2em;
@@ -401,24 +406,25 @@ span.ing{
 	margin: 0;
 }
 .popUpContent aside{
-    box-sizing: border-box;	
+	box-sizing: border-box;
+	display: inline-block;
 	width: 300px;
 	height: 100%;
-	margin-bottom: 80px;
+	position: relative;
+	float: left;
 	background: #e7f7f9;
-	box-sizing: border-box;
-	padding: 2 14px;
+	margin: 0;
+	overflow: hidden;
 }
-.popUpContent aside  span{
+.popUpContent span{
 	width: 3px;
 	height: 13px;
 	background: #60bacd;
 	float: left;
-	margin-top: 18px;
+	margin-top: 17px;
 	margin-left: 14px;
 } 
-.popUpContent aside table td{
-		
+.popUpContent aside table td{		
 	border: none;
 	padding: 2px;
 	height: 20px;
@@ -427,10 +433,48 @@ span.ing{
 	text-align: right;
 	width: 70px;
 }
-.popUpContent aside h6{
+.popUpContent  h6{
 	margin: 0;
 	line-height:48px;
 	font-size: 14px;
 	display: inline-block;
 	padding-left: 8px;
+}
+
+/*弹窗右边内容区域*/
+.popUpContent article{
+    position: relative;
+	float:left;
+	height: 100%;
+}
+.popUpContent article div.info>p,div.info>input,div.info>a{
+	display: inline-block;
+	padding-left: 20px;
+}
+.popUpContent div.navInfo{
+	display: inline-block;
+	margin-top: 12px;
+	width: 100px;
+	height:30px;
+	float: left;
+	background: #eeeeee;
+	margin-left: 16px;
+}
+.popUpContent div.navInfo p{
+    display: inline-block;
+    float: left;
+    line-height: 30px;
+    padding-left: 14px;
+}
+
+.popUpContent img{
+	float: left;
+	width:14px;
+	height: 100%;
+	padding-left: 10px;
+}
+div.screen{
+	float: right;
+	margin-top: 12px;
+	line-height: 30px;
 }
