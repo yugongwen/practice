@@ -232,11 +232,11 @@
       </div>
 
     <!--   接下来是弹窗 -->
-    <div class="popUp">
+    <div class="popUp" >
         <div class="popUpContent">
             <h4>日常生活动作训练</h4>
             <aside>
-                <span></span>
+                <span class="title"></span>
                 <h6>医嘱信息</h6>
                 <table>
                     <tr><td>患者姓名：</td><td>王康</td></tr>
@@ -245,7 +245,7 @@
                     <tr><td>就诊类型：</td><td>门诊</td></tr>
                     <tr><td>诊断：</td><td>颈椎综合症</td></tr>
                 </table>
-                <span></span>
+                <span class="title"></span>
                 <h6>医嘱信息</h6>
                 <table>
                     <tr><td>开立时间：</td><td>2017-05-23 10:20</td></tr>
@@ -254,7 +254,7 @@
                     <tr><td>数量：</td><td>2</td></tr>
                     <tr><td>频次：</td><td>1次/日</td></tr>
                 </table>
-                  <span></span>
+                  <span class="title"></span>
                 <h6>计划/预约</h6>
                 <table>
                     <tr><td>计划开始时间：</td><td>2017-05-23 10:20</td></tr>
@@ -264,21 +264,34 @@
                 </table>
             </aside>
             <article>
-                <span></span>
+                <span class="title"></span>
                 <h6>医嘱信息</h6>
                 <div class="info">
-                <p>治疗设备</p><select>
+                <span>治疗设备</span>
+                <select>
                     <option>电动牵引仪</option>
                     <option>牵引仪</option>
                 </select>
-                <p>实际执行时间</p><input type="text" name="" placeholder="2017-5-23 10:20" disabled="disabled"><p>-</p><input type="text" name="" placeholder="2017-5-23 10:35" disabled="disabled"><p>用时<a href="">15分钟</a></p>
+                <span>实际执行时间</span><input type="text" name="" placeholder="2017-5-23 10:20" disabled="disabled"><span>-</span><input type="text" name="" placeholder="2017-5-23 10:35" disabled="disabled"><span>用时<a href="">15分钟</a></span>
                 </div>
-                <div>
-                    <div class="navInfo"><img src="img/set.svg">
+                <div class="band">
+                    <div class="navInfo">
+                        <div class="greyBackground">
+                        <img src="img/set.svg">
                         <p>空白文书</p>
+                        </div>
+                        <span class="screenShow">全屏显示</span>
                     </div>
-                    <div class="screen"><p>全屏显示</p></div>
+                    <div class="textArea">
+                    <textarea></textarea>
+                    <div class="buttonDown">
+                    <input type="button" value="新建" class="btnB">
+                    <input type="button" value="完成" class="btnB">
+                    <input type="button" value="取消" class="btnC">
+                    </div>
+                    </div>
                 </div>
+                
             </article>
          </div>
     
